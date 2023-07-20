@@ -1,0 +1,140 @@
+
+.icon{
+  color: yellow;
+  transform: matrix3d(4,8,12,16);
+  text-align: center;
+  text-shadow: rgb(4, 4, 245);
+
+}
+
+.navbar{
+    background: color(rgb(255, 230, 3))
+    align-items: center;
+    display; flexbox;
+    top:30%;
+    left: 100%;
+    width: 800px;
+    height: 50px;
+    padding: 10px;
+    color: rgb(3, 248, 23);
+    
+    margin: auto;
+}
+
+body{
+    margin:auto;
+    color: rgb(12, 230, 175);
+    padding: 0;
+    background: url(skyy.jpg);
+    background-size: cover;
+    background-position:left 21%, right 100%, top 100%, bottom 200%;
+}
+.sidebar{
+
+float: right;
+height: 800px;
+width: 370px;
+padding: 15px;
+transform: translate(-50%, -50%);
+background: rgb(23, 105, 2);
+box-sizing: border-box;
+box-shadow: 0 5px 25px;
+border-radius: 17px;
+margin-top: -840px;
+margin-right: -150px;
+}
+.form label{
+  color: #080400;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 0px;
+    font-size:medium;
+}
+ul li a{
+    text-decoration: none;
+    color: aqua;
+}
+.allcontent{
+    float: left;
+    border-radius: 5px;
+    margin: 0%;
+    position: absolute;
+    background-size: cover;
+    background-color: rgb(2, 6, 61)
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    top: 25%;
+    box-sizing: border-box;
+    width: 1300px;
+    height: 700px;
+}
+
+.creatives{
+    background: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: inline-start;
+   
+    width: 625px;
+    height: 320px;
+   
+}
+
+.deliveries{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: right;
+    background-color: rgb(8, 19, 180);
+    height: 320px;
+    width: 605px;
+}
+
+.software{
+    margin-right: 0%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   float: right;
+   background-color: rgb(39, 41, 160);
+   height: 320px;
+   width: 625px;
+   
+}
+
+.faq{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: left;
+    background-color:rgb(53, 57, 124);
+    height: 320px;
+    width: 625px;
+}
+
+footer{
+    float: center;
+    background-color: rgb(53, 70, 27);
+    width: 1770px;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-right: opx;
+    margin-top: 1200px;
+}
+
+.myForm{
+    border: 0cap;
+    background-color: rgb(6, 49, 35);
+}
+
+.form .p{
+    margin-bottom:0%;
+    margin-top: 300%;
+}
